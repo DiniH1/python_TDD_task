@@ -7,5 +7,4 @@ class AdvancedCalc:
         return (num1 / num2) * 100
 
     def positive(self, num1):
-        if num1 > 0:
-            return True
+        return num1 > 0

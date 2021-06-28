@@ -50,7 +50,6 @@ import pytest`
         return (num1 / num2) * 100`
   
     `def positive(self, num1):
-        if num1 > 0:
-            return True`
+         return num1 > 0:`
   
 - Once the functions have been defined if you run 'python -m pytest' in the calc terminal you should have no failed tests and see all the tests have passed
